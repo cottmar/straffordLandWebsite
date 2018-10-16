@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
-// import '../info/info.css';
 
-// placehold for all other Components, can put inside the Div
 
 class Info extends Component {
-  // can only have one div, but as many elements inside of the div as you'd want.
   render() {
     return (
       <div className="InfoDiv">
+      <div id="bold"> Strafford, Missouri
+      </div>
         <div className="details">
         Peaceful plot of 75 acres close to I-44 and convenient to Springfield. Property is located off Stan Harriman Blvd, situated on the North side between Vermillion and Old Orchard. 
         <br></br>
