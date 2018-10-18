@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { Router, Route, Link } from 'react-router-dom';
+import { Router, Route} from 'react-router';
+import { BrowserRouter, Link } from 'react-router-dom';
 import Info from '../Info/info';
 import Map from '../Map/map';
 import Footer from '../Footer/footer';
@@ -10,11 +11,11 @@ import SeventyFive from '../75/seventyFive';
 class App extends Component {
   render() {
     return (
-      <Router>
+      <BrowserRouter>
       <div id='navBar'>
       <ul>
         <li>
-          <Link to="/">Home</Link>
+          {/* <Link to="/">Home</Link> */}
         </li>
         <li>
           <Link to="/Forty">Forty Acres</Link>
@@ -23,34 +24,18 @@ class App extends Component {
           <Link to="/SeventyFive">Seventy Five Acres</Link>
         </li>
       </ul>
-      <Route exact path="/" component={Home} />
+      {/* <Route exact path="/" component={Home} /> */}
       <Route path="/Forty" component={Forty}/>
       <Route path="/SeventyFive" component={SeventyFive}/>
           <Header/>
+          <Forty/>
+          <SeventyFive/>
           <Info />
           <Map/>
           <Footer/>
       </div> 
-      </Router>
+      </BrowserRouter>
     );
-    
-    const Home = () => {
-      <div>
-        <h2>Home</h2>
-      </div>
-    }
-
-    const Forty = () => {
-      <div>
-        <h2> <Forty/></h2>
-      </div>
-    }
-
-    const SeventyFive = () => {
-      <div>
-        <h2><SeventyFive/></h2>
-      </div>
-    }
   }
 }
 
