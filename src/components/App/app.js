@@ -13,23 +13,21 @@ class App extends Component {
     return (
       <BrowserRouter>
       <div id='navBar'>
+      <Header/>
       <ul>
         <li>
-          {/* <Link to="/">Home</Link> */}
+          <Link to="/">Home</Link>
         </li>
         <li>
           <Link to="/Forty">Forty Acres</Link>
+          <Route path="/Forty" component={Forty}/  >
         </li>
         <li>
           <Link to="/SeventyFive">Seventy Five Acres</Link>
+          <Route path="/SeventyFive" component={SeventyFive}/>
         </li>
       </ul>
       {/* <Route exact path="/" component={Home} /> */}
-      <Route path="/Forty" component={Forty}/>
-      <Route path="/SeventyFive" component={SeventyFive}/>
-          <Header/>
-          <Forty/>
-          <SeventyFive/>
           <Info />
           <Map/>
           <Footer/>

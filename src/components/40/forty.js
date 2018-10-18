@@ -5,7 +5,7 @@ class Forty extends Component {
   render() {
     return (
       <div className='fortyDesc'>
-        <p>INFO GOES HERE</p>
+        <p> 40 INFO GOES HERE</p>
       </div>
     )
   }

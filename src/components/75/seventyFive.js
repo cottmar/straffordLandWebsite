@@ -6,7 +6,7 @@ class SeventyFive extends Component {
   render() {
     return (
       <div className='seventyDesc'>
-        <p>INFO GOES HERE</p>
+        <p>75 INFO GOES HERE</p>
       </div>
     )
   }
