@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Router, Route} from 'react-router';
+import { Route, Switch } from 'react-router';
 import { BrowserRouter, Link } from 'react-router-dom';
 import Info from '../Info/info';
 import Map from '../Map/map';
@@ -8,7 +8,7 @@ import Header from '../Header/header';
 import Forty from '../40/forty';
 import SeventyFive from '../75/seventyFive';
 
-class App extends Component {
+class App extends React.Component {
   render() {
     return (
       <BrowserRouter>
@@ -17,17 +17,17 @@ class App extends Component {
       <ul>
         <li>
           <Link to="/">Home</Link>
+      {/* <Route exact path="/" component={Home} /> */}
         </li>
         <li>
           <Link to="/Forty">Forty Acres</Link>
-          <Route path="/Forty" component={Forty}/  >
+          <Route path="/Forty" component={Forty}/>
         </li>
         <li>
           <Link to="/SeventyFive">Seventy Five Acres</Link>
           <Route path="/SeventyFive" component={SeventyFive}/>
         </li>
       </ul>
-      {/* <Route exact path="/" component={Home} /> */}
           <Info />
           <Map/>
           <Footer/>
