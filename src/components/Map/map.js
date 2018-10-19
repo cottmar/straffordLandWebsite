@@ -4,7 +4,7 @@ import { withGoogleMap, GoogleMap, Marker } from 'react-google-maps';
 // withGoogleMap is a Higher Order Component
 // GoogleMap is going to take in map properties
 
-class Map extends Component {
+class Map extends React.Component {
   render() {
     const GoogleMapExample = withGoogleMap(props => (
       <GoogleMap 
