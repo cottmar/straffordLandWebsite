@@ -1,18 +1,20 @@
 import React, { Component } from 'react';
-// import { Route } from 'react-router';
-import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter, Route } from 'react-router-dom';
 import Header from '../Header/header';
-
-// import Landing from '../../components/landing/landing';
+import Landing from '../../components/landing/landing';
+import Footer from '../Footer/footer';
+import Info from '../Info/info';
 
 class App extends Component {
   render() {
     return (
       <BrowserRouter>
-      <div id='BrowserRoutes'>
+      <div>
       <Header/>
-      
-      </div> 
+          <Route exact path='/' component={Landing}/>
+          <Route exact path='/info' component={Info}/>
+      <Footer/>
+      </div>
       </BrowserRouter>
     );
   }

@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
+import Map from '../Map/map';
 
 
 class Info extends Component {
@@ -8,7 +10,7 @@ class Info extends Component {
       <div id="bold"> Strafford, Missouri
       </div>
         <div className="details">
-        <p>Brief Description</p>
+        <p>Brief Description talking about 75 and 40 acres</p>
         {/* Peaceful plot of 75 acres close to I-44 and convenient to Springfield. Property is located off Stan Harriman Blvd, situated on the North side between Vermillion and Old Orchard. 
         <br></br>
         City of Strafford planning a 12-inch water main on the north side of Stan Harriman Blvd between the Fire Station and Vermillion Drive.
@@ -19,6 +21,11 @@ class Info extends Component {
         For more information, contact Duane Ottmar (phone number, email) 
         {this.props.test} */}
         </div>
+        <div className='links'>
+        <Link to='/forty'><button>Forty Acres</button></Link>
+        <Link to='/seventyFive'><button>Seventy Five Acres</button></Link>
+        </div>
+        <Map/>
       </div>
     );
   }
