@@ -3,6 +3,7 @@ import { Route, Link } from 'react-router-dom';
 import Forty from '../40/forty';
 import SeventyFive from '../75/seventyFive';
 import Info from '../Info/info';
+import '../Header/header.css';
 
 class Header extends Component {
   render() {
