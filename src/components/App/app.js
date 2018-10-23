@@ -4,6 +4,7 @@ import Header from '../Header/header';
 import Landing from '../../components/landing/landing';
 import Footer from '../Footer/footer';
 import Info from '../Info/info';
+import '../../style/main.css';
 
 class App extends Component {
   render() {
