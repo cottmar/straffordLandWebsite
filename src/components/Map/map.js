@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { withGoogleMap, GoogleMap, Marker } from 'react-google-maps';
 
 // withGoogleMap is a Higher Order Component
