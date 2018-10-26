@@ -1,12 +1,12 @@
 @media only screen and (min-width: 640px) {
   #header {
-    background-color: lime;
+    background-color: white;
   }
 
   #words {
     font-size: 4em;
     text-align: center;
-    color: hotpink;
+    color: black;
     text-decoration: none;
   }
 
@@ -17,7 +17,7 @@
 
   nav {
     text-align: center;
-    color: hotpink;
+    color: green;
     text-decoration: none;
   }
 
@@ -29,17 +29,17 @@
 }
 
 /* for mobile view, tablet view */
-@media screen and (max-width: 680px), screen and (orientation: landscape) and (max-width: 750px) {
+@media screen and (max-width: 640px) {
 
   #header {
-    background-color: lime;
+    background-color: white;
   }
 
   #words {
     font-size: 2em;
     text-align: center;
     display: block;
-    color: hotpink;
+    color: black;
   }
 
   a {
