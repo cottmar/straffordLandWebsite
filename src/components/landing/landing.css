@@ -4,7 +4,7 @@
     text-align: center;
     padding-top: 10vw;
     height: 25vw;
-    background-color: pink;
+    background-color: black;
   }
 
   h1 {
@@ -29,7 +29,7 @@
   }
   
 }
-
+/* ////// THIS IS YOUR MOBILE VIEW /////// */
 /* ////// THIS IS YOUR MOBILE VIEW /////// */
 /* ////// THIS IS YOUR MOBILE VIEW /////// */
 /* ////// THIS IS YOUR MOBILE VIEW /////// */
@@ -43,7 +43,7 @@
     text-align: center;
     padding-top: 10vw;
     height: 35vw;
-    /* background-color: pink; */
+    background-color: black;
   }
 
   button {
