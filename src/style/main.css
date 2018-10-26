@@ -1,20 +1,37 @@
 html, body {
   height: 100%;
   width: 100%;
-  /* color: black; */
-  /* background-color: white;; */
+  font-family: 'PT Sans Narrow', sans-serif;
+  color: white;
+  background-color: black;
 }
 
 html, body, h1, footer, p {
   margin: 0;
-  padding: 0;
+  /* padding: 0; */
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
 }
 
 button {
   background: white;
-  border: 1px solid;
+  border: 2px solid;
+  border-radius: 8px;
   font-size: 1.5vw;
-  height: 4vw;
-  width: 15vw;
+  height: 3.5vw;
+  width: 13vw;
   margin: 1vw;
+}
+
+.footerWords {
+  text-align: center;
+  height: 5vw;
+  width: 100%;
+  color: white;
 }

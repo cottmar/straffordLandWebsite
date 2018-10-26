@@ -8,7 +8,7 @@ class Landing extends React.Component {
     return (
       <div className='landing'>
         <div className='forSale'>
-        <h1>A C R E A G E&emsp;F O R&emsp;S A L E</h1>
+        <h1>S T R A F F O R D,&emsp;M I S S O U R I</h1>
         <p>For Sale by Owner</p>
         <Link to='/info'><button>Details</button></Link>
         </div>

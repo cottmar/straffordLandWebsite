@@ -1,12 +1,12 @@
 @media only screen and (min-width: 640px) {
   #header {
-    background-color: lime;
+    background-color: white;
   }
 
   #words {
     font-size: 4em;
     text-align: center;
-    color: hotpink;
+    color: black;
     text-decoration: none;
   }
 
@@ -17,7 +17,7 @@
 
   nav {
     text-align: center;
-    color: hotpink;
+    color: green;
     text-decoration: none;
   }
 
