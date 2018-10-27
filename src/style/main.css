@@ -10,6 +10,7 @@ html, body, h1, footer, p {
   margin: 0;
   /* padding: 0; */
 }
+
 a {
   text-decoration: none;
   color: black;
@@ -29,9 +30,27 @@ button {
   margin: 1vw;
 }
 
-.footerWords {
-  text-align: center;
-  height: 5vw;
-  width: 100%;
-  color: white;
+/* @media only screen and (min-width: 640px) {
+
+} */
+
+@media only screen and (max-width: 640px) {
+  button {
+    background: white;
+    height: 7vw;
+    width: 20vw;
+    font-size: 3.5vw;
+  }
+
+  html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: white;
+    background-color: black;
+  }
+  
+  html, body, h1, footer, p {
+    margin: 0;
+  }
 }
