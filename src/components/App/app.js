@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { render } from 'react-dom';
 import { BrowserRouter, Route } from 'react-router-dom';
 import Header from '../Header/header';
 import Landing from '../../components/landing/landing';
