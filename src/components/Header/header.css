@@ -16,9 +16,14 @@
   }
 
   nav {
+    display: block;
     text-align: center;
     color: green;
     text-decoration: none;
+  }
+
+  nav :hover {
+    color: gray;
   }
 
   li {
@@ -51,6 +56,10 @@
     text-align: center;
     color: hotpink;
     text-decoration: none;
+  }
+
+  nav :hover {
+    color: gray;
   }
 
   li {
