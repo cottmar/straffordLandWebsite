@@ -1,9 +1,6 @@
 import React from 'react';
 import '../75/seventyFive.css';
 
-// import { BrowserRouter, Route } from 'react-router-dom';
-
-
 class SeventyFive extends React.Component {
   render() {
     return (

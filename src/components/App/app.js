@@ -19,7 +19,7 @@ class App extends Component {
           <Route exact path='/' component={Landing}/>
           <Route exact path='/info' component={Info}/>
           <Route exact path='/forty' component={Forty}/>
-          <Route exact path='/forty' component={SeventyFive}/>
+          <Route exact path='/seventyFive' component={SeventyFive}/>
           <Footer/>
         </div>
       </BrowserRouter>
