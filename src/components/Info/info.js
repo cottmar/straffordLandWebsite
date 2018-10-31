@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import Map from '../Map/map';
+import '../Info/info.css';
 
 
 class Info extends Component {
