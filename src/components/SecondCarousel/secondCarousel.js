@@ -1,13 +1,12 @@
 import React from 'react';
 import { ReactDOM, Component } from 'react-dom';
 import { Carousel } from 'react-responsive-carousel';
-import one from '../../assets/FortyPics/one/one.jpg';
-import two from '../../assets/FortyPics/two/two.jpg';
-import three from '../../assets/FortyPics/three/three.jpg';
-import four from '../../assets/FortyPics/four/four.jpg';
-import five from '../../assets/FortyPics/five/five.jpg';
+import one from '../../assets/SeventyFivepics/one/IMG_20180705_154227.jpg';
+import two from '../../assets/SeventyFivepics/two/IMG_20180705_154249.jpg';
+import three from '../../assets/SeventyFivepics/three/IMG_20180705_154259.jpg';
+import four from '../../assets/SeventyFivepics/four/image.jpg';
 
-class DemoCarousel extends React.Component {
+class CarouselII extends React.Component {
   render() {
       return (
             <Carousel autoPlay>
@@ -27,13 +26,9 @@ class DemoCarousel extends React.Component {
                   <img src={four} alt="landPic" />
                   <p className="legend">Legend 4</p>
               </div>
-              <div>
-                  <img src={five} alt="landPic" />
-                  <p className="legend">Legend 5</p>
-              </div>
           </Carousel>
       );
   }
 };
 
-export default DemoCarousel;
+export default CarouselII;
