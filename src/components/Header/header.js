@@ -17,15 +17,12 @@ class Header extends Component {
         </li>
         <li>
           <Link to="/info">Info</Link>
-          <Route path="/info" component={Info}/>
         </li>
         <li>
           <Link to="/Forty">Forty Acres</Link>
-          <Route path="/Forty" component={Forty}/>
         </li>
         <li>
           <Link to="/SeventyFive">Seventy Five Acres</Link>
-          <Route path="/SeventyFive" component={SeventyFive}/>
         </li>
         </nav>
     </div>
