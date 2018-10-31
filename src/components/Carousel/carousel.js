@@ -1,23 +1,72 @@
 import React from 'react';
-import one from '../../assets/FortyPics/one';
+import { ReactDOM, render } from 'react-dom';
+import one from '../../assets/FortyPics/one/one.jpg';
+import two from '../../assets/FortyPics/two/two.jpg';
+import three from '../../assets/FortyPics/three/three.jpg';
+
+const imgUrls = [ {one}, {two}, {three} ];
 
 class Carousel extends React.Component {
-  render() {
-    retrun (
-      <div className="carousel">
-        <ImageSlide url={ imgUrl } />
-      </div>
-    );
+  constructor(props) {
+    super(props);
+
+    this.state= {
+      currentImageIndex: 0
+    };
+
+    this.nextSlide = this.nextSlide.bind(this);
+    this.previousSlide = this.previousSlide.bind(this);
   }
 
-  const Arrow = ({ direction, clickFunction, glyph }) => {
+  previousSlide() {
+    const lastIndex = imgUrls.length - 1;
+    const { currentImageIndex } = this.state;
+    const shouldResetIndex = currentImageIndex === 0;
+    const index = shouldResetIndex ? lastIndex : currentImageIndex -1;
+
+    this.setState({
+      currentImageIndex: index
+    });
+  }
+
+nextSlide() {
+  const lastIndex = imgUrls.length -1;
+  const { currentImageIndex } = this.state;
+  const shouldResetIndex = currentImageIndex === lastIndex;
+  const index = shouldResetIndex ? 0 : currentImageIndex + 1;
+
+  this.setState({
+    currentImageIndex: index
+  });
+}
+
+  render() {
+    return (
+      <div className="carousel">
+      <Arrow
+        direction="left"
+        clickFunction={ this.previousSlide }
+        glyph="&#9664;"/>
+
+        <ImageSlide url={ imgUrls[this.state.currentImageIndex] } />
+
+      <Arrow
+        direction="right"
+        clickFunction={ this.nextSlide }
+        glyph="&#9654;"/>
+      </div>
+    );
+    }
+  }
+ 
+  const Arrow = ({ direction, clickFunction, glyph }) => { 
     <div
       className={`slide-arrow ${direction}`}
       onclick={ clickFunction }>
       { glyph }
       </div>
   };
-}
+
 
 const ImageSlide = ({ url }) => {
   const styles = {
@@ -30,3 +79,5 @@ const ImageSlide = ({ url }) => {
     <div className="image-slide" style={styles}></div>
   );
 }
+
+export default Carousel;
