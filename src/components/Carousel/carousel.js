@@ -7,7 +7,7 @@ import three from '../../assets/FortyPics/three/three.jpg';
 import four from '../../assets/FortyPics/four/four.jpg';
 import five from '../../assets/FortyPics/five/five.jpg';
 
-class DemoCarousel extends React.Component {
+class ImgCarousel extends React.Component {
   render() {
       return (
             <Carousel autoPlay>
@@ -36,4 +36,4 @@ class DemoCarousel extends React.Component {
   }
 };
 
-export default DemoCarousel;
+export default ImgCarousel;
