@@ -7,6 +7,7 @@ import { withGoogleMap, GoogleMap, Marker } from 'react-google-maps';
 class Map extends React.Component {
   render() {
     const GoogleMapExample = withGoogleMap(props => (
+    <div className='map'>
       <GoogleMap 
         defaultCenter = {{ lat: 37.285209, lng: -93.119380 }}
         defaultZoom = { 15 }
@@ -14,18 +15,19 @@ class Map extends React.Component {
         <Marker
            position={{ lat: 37.285209 , lng: -93.119380 }}
         />
-  </GoogleMap>
-  
-    ));
+       </GoogleMap>
+    </div>
+  ));
 
     return (
       <div id='google-Map'>
         <GoogleMapExample
-          containerElement={ <div id="mapHeight" style={{ height: `600px`, width: `960px` }} /> }
+          containerElement={ <div id="mapHeight" style={{ height: `600px`, width: `100%` }} /> }
           mapElement={ <div style={{ height: `100%` }} /> }
         />
       </div>
     );
+    
   }
 };
 
