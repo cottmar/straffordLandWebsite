@@ -15,8 +15,8 @@
   }
 
   .forSale {
-    background-color :black;
     height: 100vh;
+    padding-top: 120px;
   }  
 
   h1 {
@@ -49,7 +49,6 @@
     text-align: center;
     padding-top: 10vw;
     height: 35vw;
-    background-color: black;
   }
 
   h1 {
