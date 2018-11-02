@@ -1,9 +1,12 @@
 /* desktop view */
 
 p {
+  margin: 10px;
+  padding-top: 10px;
   text-align: center;
 }
 
 .details {
   text-align: center;
+  padding: 10px;
 }
