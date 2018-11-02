@@ -1,6 +1,7 @@
 import React from 'react';
 import { ReactDOM, Component } from 'react-dom';
 import { Carousel } from 'react-responsive-carousel';
+import './ImgCarousel.css';
 import one from '../../assets/FortyPics/one/one.jpg';
 import two from '../../assets/FortyPics/two/two.jpg';
 import three from '../../assets/FortyPics/three/three.jpg';

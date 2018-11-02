@@ -4,7 +4,7 @@ import { Carousel } from 'react-responsive-carousel';
 import one from '../../assets/SeventyFivepics/one/IMG_20180705_154227.jpg';
 import two from '../../assets/SeventyFivepics/two/IMG_20180705_154249.jpg';
 import three from '../../assets/SeventyFivepics/three/IMG_20180705_154259.jpg';
-import four from '../../assets/SeventyFivepics/four/image.jpg';
+// import four from '../../assets/SeventyFivepics/four/image.jpg';
 
 class CarouselII extends React.Component {
   render() {
@@ -12,20 +12,20 @@ class CarouselII extends React.Component {
             <Carousel autoPlay>
               <div>
                   <img src={one} alt="landPic" />
-                  <p className="legend">Legend 1</p>
+                  <p className="legend">View from Stan Harriman Rd</p>
               </div>
               <div>
                   <img src={two} alt="landPic" />
-                  <p className="legend">Legend 2</p>
+                  <p className="legend">75 Acres</p>
               </div>
               <div>
                   <img src={three} alt="landPic" />
-                  <p className="legend">Legend 3</p>
+                  <p className="legend">View from Stan Harriman Rd</p>
               </div>
-              <div>
+              {/* <div>
                   <img src={four} alt="landPic" />
                   <p className="legend">Legend 4</p>
-              </div>
+              </div> */}
           </Carousel>
       );
   }

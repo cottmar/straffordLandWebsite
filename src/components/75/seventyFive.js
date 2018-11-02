@@ -6,8 +6,8 @@ class SeventyFive extends React.Component {
   render() {
     return (
       <div className='seventyDesc'>
-        <p>75 INFO GOES HERE</p>
         <CarouselII/>
+        <p>75 INFO GOES HERE</p>
       </div>
     )
   }
