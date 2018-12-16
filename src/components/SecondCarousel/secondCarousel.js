@@ -1,18 +1,17 @@
 import React from 'react';
-import { ReactDOM, Component } from 'react-dom';
+// import { ReactDOM, Component } from 'react-dom';
 import { Carousel } from 'react-responsive-carousel';
-import one from '../../assets/SeventyFivepics/one/IMG_20180705_154227.jpg';
-import two from '../../assets/SeventyFivepics/two/IMG_20180705_154249.jpg';
-import three from '../../assets/SeventyFivepics/three/IMG_20180705_154259.jpg';
-// import four from '../../assets/SeventyFivepics/four/image.jpg';
+import two from '../../assets/SeventyFivepics/two/75street.jpeg';
+import three from '../../assets/SeventyFivepics/three/75land.jpeg';
+import four from '../../assets/SeventyFivepics/four/image.jpg';
 
 class CarouselII extends React.Component {
   render() {
       return (
             <Carousel autoPlay>
               <div>
-                  <img src={one} alt="landPic" />
-                  <p className="legend">View from Stan Harriman Rd</p>
+                  <img src={four} alt="landPic" />
+                  <p className="legend">View toward barn</p>
               </div>
               <div>
                   <img src={two} alt="landPic" />
@@ -22,10 +21,7 @@ class CarouselII extends React.Component {
                   <img src={three} alt="landPic" />
                   <p className="legend">View from Stan Harriman Rd</p>
               </div>
-              {/* <div>
-                  <img src={four} alt="landPic" />
-                  <p className="legend">Legend 4</p>
-              </div> */}
+
           </Carousel>
       );
   }

@@ -14,23 +14,23 @@ class ImgCarousel extends React.Component {
             <Carousel autoPlay>
               <div>
                   <img src={one} alt="landPic" />
-                  <p className="legend">Legend 1</p>
+                  <p className="legend">Forty Acres</p>
               </div>
               <div>
                   <img src={two} alt="landPic" />
-                  <p className="legend">Legend 2</p>
+                  <p className="legend">Pond on Forty Acres</p>
               </div>
               <div>
                   <img src={three} alt="landPic" />
-                  <p className="legend">Legend 3</p>
+                  <p className="legend">Forty Acres</p>
               </div>
               <div>
                   <img src={four} alt="landPic" />
-                  <p className="legend">Legend 4</p>
+                  <p className="legend">Forty Acres</p>
               </div>
               <div>
                   <img src={five} alt="landPic" />
-                  <p className="legend">Legend 5</p>
+                  <p className="legend">Forty Acres</p>
               </div>
           </Carousel>
       );
