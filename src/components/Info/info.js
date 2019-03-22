@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 import Map from '../Map/map';
 import '../Info/info.css';
 
@@ -24,8 +23,8 @@ class Info extends Component {
         <br></br>
         </ul>
         <ul>
-        $8,000 per acre.
-        For more information, contact Duane Ottmar (phone number, email) 
+        $8,000 per acre. The 40 and 70 can be sold together or separately.<br></br><br></br>
+        For more information, contact Duane Ottmar ( <a className="phone" href="tel:1-417-299-3300">417-299-3300</a> or <a className="email" href="mailto:ottmar19@yahoo.com">by email.</a> ) 
         {this.props.test}
         </ul>
         </div>

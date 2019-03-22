@@ -1,5 +1,4 @@
 import React from 'react';
-import { ReactDOM, Component } from 'react-dom';
 import { Carousel } from 'react-responsive-carousel';
 import './ImgCarousel.css';
 import one from '../../assets/FortyPics/one/one.jpg';

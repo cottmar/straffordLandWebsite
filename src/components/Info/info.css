@@ -14,10 +14,31 @@ p {
 .details {
   text-align: center;
   padding: 5px;
+  font-size: 20px;
 }
 
 .details ul {
   padding: 5px;
+}
+
+.email {
+  color: white;
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.phone {
+  color: white;
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.email:hover {
+  cursor: pointer; 
+}
+
+.phone:hover {
+  cursor: pointer; 
 }
 
 @media screen and (max-width: 640px) {
