@@ -7,7 +7,7 @@ class SeventyFive extends React.Component {
     return (
       <div className='seventyDesc'>
         <CarouselII/>
-        <p>75 INFO GOES HERE</p>
+        <p>Seventy Five acres near Strafford and I-44. Sitting on the acreage is a barn and well house. The land could be subdivided or used in its current form. Tentative plans to subdivide the land have been drawn and can be made available upon request.</p>
       </div>
     )
   }

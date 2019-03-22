@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import { Route, Link } from 'react-router-dom';
-import Forty from '../40/forty';
-import SeventyFive from '../75/seventyFive';
-import Info from '../Info/info';
+import { Link } from 'react-router-dom';
+// import Forty from '../40/forty';
+// import SeventyFive from '../75/seventyFive';
+// import Info from '../Info/info';
 import '../Header/header.css';
 
 class Header extends Component {
