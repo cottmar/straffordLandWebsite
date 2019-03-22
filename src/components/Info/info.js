@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Map from '../Map/map';
+import { Link } from 'react-router-dom';
 import '../Info/info.css';
 
 
@@ -11,20 +12,16 @@ class Info extends Component {
       <p>Strafford, Missouri</p>
       </div>
         <div className="details">
-        <ul>Peaceful plot of 75 acres close to I-44 and convenient to Springfield. Property is located off Stan Harriman Blvd, situated on the North side between Vermillion and Old Orchard. 
+        <ul>Peaceful plot of acreage adjoining Strafford City Limits. Property is in the Strafford R-VI School District which has earned the highest level of accreditation given to Missouri Public Schools. Located less than 1 mile from US I-44 and less than 6 miles from the Springfield City Limits. 
         <br></br>
         </ul>
         <ul>
-        City of Strafford planning a 12-inch water main on the north side of Stan Harriman Blvd between the Fire Station and Vermillion Drive.
+        The property adjoins a fire station operated by the Strafford Fire Protection District. A Strafford owned and operated municipal sanitary sewer lift station is located via public right-of-way less than 500 feet from the property. Easement has been granted to the City of Strafford to construct a new 12-inch water main across the south end of the property.
         <br></br>
         </ul>
         <ul>
-        City owned and operated Sanitary Sewer Lift Station is located in the Southeast corner of the intersection of Old Orchard Drive and Stan Harriman Blvd.
-        <br></br>
-        </ul>
-        <ul>
-        $8,000 per acre. The 40 and 70 can be sold together or separately.<br></br><br></br>
-        For more information, contact Duane Ottmar ( <a className="phone" href="tel:1-417-299-3300">417-299-3300</a> or <a className="email" href="mailto:ottmar19@yahoo.com">by email.</a> ) 
+        $8,000 per acre. The <Link to="/forty" className="links">40</Link> and <Link to="/seventyFive" className="links">70</Link> can be sold together or separately.<br></br><br></br>
+        For more information, contact Duane Ottmar ( <a className="phone" href="tel:1-417-299-3300">417-299-3300</a> or <a className="email" href="mailto:ottmar19@yahoo.com">by email</a> ) 
         {this.props.test}
         </ul>
         </div>

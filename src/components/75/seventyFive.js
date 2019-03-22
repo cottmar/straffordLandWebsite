@@ -7,7 +7,7 @@ class SeventyFive extends React.Component {
     return (
       <div className='seventyDesc'>
         <CarouselII/>
-        <p>Seventy Five acres near Strafford and I-44. Sitting on the acreage is a barn and well house. The land could be subdivided or used in its current form. Tentative plans to subdivide the land have been drawn and can be made available upon request.</p>
+        <p>75-acres directly off of Farm Road 84 and adjacent to Strafford Fire Station. Acreage has current infrastructure of a private well, wellhouse, metal hay bard, corrals, and cattle handling equipment. The current zoning is agcricultural.</p>
       </div>
     )
   }
