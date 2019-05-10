@@ -1,10 +1,12 @@
 /* desktop view */
 
-p {
-  margin: 10px auto 10px auto;
-  padding: 40px;
+#bold p {
+  margin: 5px auto 5px auto;
+  padding: 5px;
+  padding-bottom: 0;
   /* border: 2px solid #0088dd; */
   text-align: center;
+  font-size: 35px;
 }
 
 #bold {
@@ -14,6 +16,7 @@ p {
 .details {
   text-align: center;
   padding: 5px;
+  padding-top: 0;
   font-size: 20px;
 }
 
@@ -51,18 +54,14 @@ p {
 
   .details {
     text-align: justify;
-    padding: 10px auto 0px auto;
-    padding-bottom: 18px;
+    padding: 0 auto 0px auto;
     height: 140px;
     overflow: scroll;
   }
-/* 
-  .details ul {
-  } */
 
-  #bold {
-    padding-top: 0px;
-    background-color: rgb(46, 45, 45);
+  #bold p {
+    padding: 0;
+    /* background-color: rgb(46, 45, 45); */
   }
 
   p {
