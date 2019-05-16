@@ -20,8 +20,8 @@ class Info extends Component {
         <br></br>
         </ul>
         <ul>
-        $8,000 per acre. The <Link to="/forty" className="links">40</Link> and <Link to="/seventyFive" className="links">70</Link> can be sold together or separately.<br></br><br></br>
-        For more information, contact Duane Ottmar ( <a className="phone" href="tel:1-417-299-3300">417-299-3300</a> or <a className="email" href="mailto:ottmar19@yahoo.com">by email</a> ) 
+        $9,500 per acre. The <Link to="/forty" className="links">40</Link> and <Link to="/seventyFive" className="links">75</Link> can be sold together or separately.<br></br><br></br>
+        For more information, contact Duane Ottmar ( <a className="phone" href="tel:1-417-299-3300">417-299-3300</a> or <a className="email" href="mailto:ottmar19@yahoo.com">by email</a> ) or Linda Ottmar ( <a className="phone" href="tel:1-417-844-6501">417-844-6501</a> or <a className="email" href="mailto:lloteach@gmail.com">by email</a> )
         {this.props.test}
         </ul>
         </div>
